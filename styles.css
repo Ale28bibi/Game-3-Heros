@@ -1,0 +1,153 @@
+body {
+    height: 100vh;
+    background: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    background-color: black;
+}
+
+
+.d-flex {
+    display: flex;
+}
+
+.d-block {
+    display: block!important;
+}
+
+.d-none {
+    display: none!important;
+}
+
+.hero-container {
+    padding: 20px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    min-height: 30vh;
+    color: antiquewhite;
+    text-align: center;
+
+}
+
+
+.card1-background {
+    background-color: rgba(100, 148, 237, 0.3);
+    padding: 30px;
+    margin-right: 20px;
+    border-radius: 20%;
+    
+}
+
+.card1-background:hover{
+    background-color: rgba(0, 0, 255, 0.5);
+}
+
+
+.card2-background {
+    background-color: rgba(100, 148, 237, 0.3);
+    padding: 30px;
+    margin-right: 20px;
+    border-radius: 20%;
+}
+
+.card2-background:hover {
+    background-color: rgba(0, 0, 255, 0.5);
+}
+
+.card3-background {
+    background-color: rgba(100, 148, 237, 0.3);
+    padding: 30px;
+    margin-right: 20px;
+    border-radius: 20%;
+    
+}
+
+.card3-background:hover {
+    background-color: rgba(0, 0, 255, 0.5);
+}
+
+#btn-container {
+    width: 100%;
+    
+}
+
+#show-heros {
+    margin: 30px auto;
+    display: block;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    background-color:rgba(0, 4, 255, 0.3);
+    
+    
+}
+
+.edit-heros {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+#start-fight {
+    margin: 30px auto;
+    align-items: center;
+    display: flex;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    background-color:rgba(0, 4, 255, 0.3);
+    box-shadow: 30%;
+    text-shadow: 2px 2px black;
+}
+
+#hight {
+    margin: 30px auto;
+    align-items: center;
+    display: flex;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    background-color:rgba(0, 4, 255, 0.3);
+    box-shadow: 30%;
+    text-shadow: 2px 2px black;
+}
+
+.story {
+    display: none;
+    flex-direction: column;
+
+}
+
+
+.story-important {
+    background-color: rgba(100, 148, 237, 0.6);
+    padding: 25px;
+    /* margin-right: 10px; */
+    border-radius: 30%;
+    height: 150px;
+    margin-bottom: 120px;
+    text-align: center;
+    text-decoration: overline;
+    text-indent: 150px;
+    word-spacing: -2px;
+    text-decoration-color: beige;
+    color: aliceblue;
+
+}
+
+.story-important:hover {
+    background-color: rgba(12, 127, 204, 0.6);
+}
+
+.img-story {
+    width: auto;
+    height: 200px;
+}
+
+
